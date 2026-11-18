@@ -1,0 +1,201 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="description" content="The Olive Table is a fictional neighborhood restaurant celebrating seasonal Mediterranean cooking. Portfolio demonstration only." />
+    <meta name="theme-color" content="#f5f0e6" />
+    <title>The Olive Table — A place to gather</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Playfair+Display:ital,wght@0,400;0,500;0,600;0,700;1,400;1,500&display=swap" rel="stylesheet" />
+    <link rel="stylesheet" href="styles.css" />
+    <script src="script.js" defer></script>
+  </head>
+  <body>
+    <a class="skip-link" href="#main">Skip to content</a>
+    <div class="demo-ribbon">A FICTIONAL RESTAURANT · PORTFOLIO DEMONSTRATION</div>
+    <header class="site-header" id="top">
+      <a class="brand" href="#top" aria-label="The Olive Table home">
+        <span class="brand-icon" aria-hidden="true">ot</span>
+        <span>THE OLIVE<br /><small>TABLE</small></span>
+      </a>
+      <button class="menu-toggle" type="button" aria-label="Open navigation menu" aria-expanded="false" aria-controls="primary-navigation">
+        <span></span><span></span>
+      </button>
+      <nav class="site-nav" id="primary-navigation" aria-label="Main navigation">
+        <a href="#story">Our story</a>
+        <a href="#menu">The menu</a>
+        <a href="#gather">Our space</a>
+        <a href="#reviews">Kind words</a>
+        <a class="nav-cta" href="#reserve">Reserve a table <span aria-hidden="true">↗</span></a>
+      </nav>
+    </header>
+
+    <main id="main">
+      <section class="hero" aria-labelledby="hero-title">
+        <img class="hero-photo" src="https://images.unsplash.com/photo-1414235077428-338989a2e8c0?auto=format&amp;fit=crop&amp;w=2200&amp;q=88" alt="A candlelit restaurant table set for a relaxed dinner" fetchpriority="high" />
+        <div class="hero-shade"></div>
+        <div class="hero-copy">
+          <p class="eyebrow light"><span class="eyebrow-rule"></span> SEASONAL COOKING · MADE TO SHARE</p>
+          <h1 id="hero-title">A place to<br />slow <em>down.</em></h1>
+          <p class="hero-description">Gather around the table for generous plates, honest ingredients, and the easy pleasure of being together.</p>
+          <div class="hero-actions">
+            <a class="button button-ivory" href="#menu">Discover the menu <span aria-hidden="true">↘</span></a>
+            <a class="hero-text-link" href="#story">A little about us <span aria-hidden="true">↓</span></a>
+          </div>
+        </div>
+        <div class="hero-side-note"><span>GOOD FOOD, GOOD COMPANY</span><i></i><span>EST. 2016 · BROOKLYN</span></div>
+        <a class="scroll-cue" href="#story" aria-label="Scroll to our story"><span></span> SCROLL TO GATHER</a>
+        <div class="hero-rating"><span aria-label="Five out of five stars">★★★★★</span><small>LOVED BY OUR NEIGHBORS</small></div>
+      </section>
+
+      <section class="welcome section-pad" id="story" aria-labelledby="story-title">
+        <div class="welcome-mark" aria-hidden="true">✳</div>
+        <div class="welcome-photo reveal">
+          <img src="https://images.unsplash.com/photo-1476224203421-9ac39bcb3327?auto=format&amp;fit=crop&amp;w=1000&amp;q=85" alt="A colorful seasonal Mediterranean meal laid out to share" loading="lazy" />
+          <span class="photo-caption">FROM OUR KITCHEN, WITH LOVE</span>
+        </div>
+        <div class="welcome-copy reveal">
+          <p class="eyebrow"><span class="eyebrow-rule"></span> PULL UP A CHAIR</p>
+          <h2 id="story-title">The best things<br />happen <em>around</em><br />the table.</h2>
+          <p>We’re a neighborhood kitchen with a soft spot for sun-ripened tomatoes, long lunches, and one more plate for the middle of the table. Our menu follows the seasons and borrows a little inspiration from everywhere around the Mediterranean.</p>
+          <p>Come as you are. There’s always room for one more.</p>
+          <a class="underlined-link" href="#gather">Get to know our place <span aria-hidden="true">↗</span></a>
+          <div class="signature"><span>With warmth,</span><strong>Elena &amp; Marco</strong><small>CO-FOUNDERS, THE OLIVE TABLE</small></div>
+        </div>
+      </section>
+
+      <section class="specials section-pad" aria-labelledby="specials-title">
+        <div class="section-heading reveal">
+          <div>
+            <p class="eyebrow light"><span class="eyebrow-rule"></span> FROM THE PASS</p>
+            <h2 id="specials-title">A few <em>favorites.</em></h2>
+          </div>
+          <p>Made with what’s good right now.<br />Best enjoyed with someone you like.</p>
+        </div>
+        <div class="dish-grid">
+          <article class="dish-card reveal">
+            <div class="dish-image"><img src="https://images.unsplash.com/photo-1473093295043-cdd812d0e601?auto=format&amp;fit=crop&amp;w=900&amp;q=85" alt="Fresh pasta with herbs and parmesan" loading="lazy" /><span class="dish-number">01</span></div>
+            <div class="dish-meta"><h3>Sunday lemon pasta</h3><span>$24</span></div>
+            <p>Hand-cut ribbons, lemon butter, garden herbs, pecorino.</p>
+          </article>
+          <article class="dish-card reveal">
+            <div class="dish-image"><img src="https://images.unsplash.com/photo-1547592180-85f173990554?auto=format&amp;fit=crop&amp;w=900&amp;q=85" alt="A fresh salad with greens, grains and seasonal vegetables" loading="lazy" /><span class="dish-number">02</span></div>
+            <div class="dish-meta"><h3>Market greens</h3><span>$18</span></div>
+            <p>Little gem, crisp apple, toasted hazelnut, green goddess.</p>
+          </article>
+          <article class="dish-card reveal">
+            <div class="dish-image"><img src="https://images.unsplash.com/photo-1504674900247-0877df9cc836?auto=format&amp;fit=crop&amp;w=900&amp;q=85" alt="A colorful seasonal dish served for sharing" loading="lazy" /><span class="dish-number">03</span></div>
+            <div class="dish-meta"><h3>Wood-fired carrots</h3><span>$16</span></div>
+            <p>Whipped feta, pomegranate, warm honey, sourdough crumb.</p>
+          </article>
+        </div>
+        <a class="button button-outline-light" href="#menu">See everything we’re cooking <span aria-hidden="true">↗</span></a>
+      </section>
+
+      <section class="menu-section section-pad" id="menu" aria-labelledby="menu-title">
+        <div class="menu-intro reveal">
+          <p class="eyebrow"><span class="eyebrow-rule"></span> A MENU FOR THE MIDDLE</p>
+          <h2 id="menu-title">Pass it <em>around.</em></h2>
+          <p>Seasonal, generous, and always better shared. Our kitchen works with local growers and lets the ingredients lead.</p>
+          <div class="menu-note"><span>✳</span> A little note: our menu changes with the seasons.</div>
+          <a class="underlined-link" href="#reserve">Come hungry <span aria-hidden="true">↗</span></a>
+        </div>
+        <div class="menu-board reveal">
+          <div class="menu-tabs" role="tablist" aria-label="Menu categories">
+            <button class="menu-tab is-active" type="button" role="tab" id="tab-small" aria-selected="true" aria-controls="panel-small" data-menu-tab="small">To begin</button>
+            <button class="menu-tab" type="button" role="tab" id="tab-mains" aria-selected="false" aria-controls="panel-mains" data-menu-tab="mains" tabindex="-1">From the kitchen</button>
+            <button class="menu-tab" type="button" role="tab" id="tab-sweet" aria-selected="false" aria-controls="panel-sweet" data-menu-tab="sweet" tabindex="-1">Something sweet</button>
+          </div>
+          <div class="menu-panel" id="panel-small" role="tabpanel" aria-labelledby="tab-small" data-menu-panel="small">
+            <article class="menu-item"><div><h3>Warm olives <span class="dish-tag">V</span></h3><p>Orange, rosemary, a little chile</p></div><b>$8</b></article>
+            <article class="menu-item"><div><h3>Burrata &amp; peaches</h3><p>Stone fruit, basil, grilled country loaf</p></div><b>$17</b></article>
+            <article class="menu-item"><div><h3>Whipped ricotta <span class="dish-tag">V</span></h3><p>Wildflower honey, black pepper, focaccia</p></div><b>$14</b></article>
+            <article class="menu-item"><div><h3>Little gem salad</h3><p>Green goddess, radish, crispy chickpeas</p></div><b>$15</b></article>
+          </div>
+          <div class="menu-panel" id="panel-mains" role="tabpanel" aria-labelledby="tab-mains" data-menu-panel="mains" hidden>
+            <article class="menu-item"><div><h3>Sunday lemon pasta</h3><p>Hand-cut ribbons, lemon butter, pecorino</p></div><b>$24</b></article>
+            <article class="menu-item"><div><h3>Market fish</h3><p>Whatever came in fresh, fennel, salsa verde</p></div><b>$32</b></article>
+            <article class="menu-item"><div><h3>Roast chicken for two</h3><p>Herb jus, crispy potatoes, little gem</p></div><b>$48</b></article>
+            <article class="menu-item"><div><h3>Wild mushroom polenta <span class="dish-tag">V</span></h3><p>Creamy polenta, thyme, aged parmesan</p></div><b>$26</b></article>
+          </div>
+          <div class="menu-panel" id="panel-sweet" role="tabpanel" aria-labelledby="tab-sweet" data-menu-panel="sweet" hidden>
+            <article class="menu-item"><div><h3>Olive oil cake <span class="dish-tag">V</span></h3><p>Roasted strawberries, soft cream</p></div><b>$12</b></article>
+            <article class="menu-item"><div><h3>Dark chocolate tart</h3><p>Sea salt, crème fraîche</p></div><b>$13</b></article>
+            <article class="menu-item"><div><h3>Something from the counter</h3><p>Ask us what’s just come out of the oven</p></div><b>$10</b></article>
+          </div>
+          <p class="menu-footnote">V = vegetarian · Please let us know about allergies.</p>
+        </div>
+      </section>
+
+      <section class="chef-pick" aria-labelledby="chef-title">
+        <div class="chef-photo"><img src="https://images.unsplash.com/photo-1559339352-11d035aa65de?auto=format&amp;fit=crop&amp;w=1300&amp;q=85" alt="A chef putting the finishing touches on a plate" loading="lazy" /></div>
+        <div class="chef-card reveal">
+          <p class="eyebrow light"><span class="eyebrow-rule"></span> CHEF’S LITTLE NOTE</p>
+          <span class="chef-quote" aria-hidden="true">“</span>
+          <h2 id="chef-title">“Cook what<br />the season<br /><em>gives you.”</em></h2>
+          <p>Tonight, that means slow-roasted lamb with rosemary, sweet onions, and a glass of something lovely.</p>
+          <div class="chef-signature"><strong>Chef Luca Moretti</strong><small>IN OUR KITCHEN SINCE 2018</small></div>
+        </div>
+      </section>
+
+      <section class="gather section-pad" id="gather" aria-labelledby="gather-title">
+        <div class="section-heading gather-heading reveal">
+          <div><p class="eyebrow"><span class="eyebrow-rule"></span> THE ROOM, THE TABLE, THE PEOPLE</p><h2 id="gather-title">Stay for <em>one more.</em></h2></div>
+          <p>Long lunches turn into candlelit dinners here.<br />Take a look around.</p>
+        </div>
+        <div class="gallery-grid">
+          <figure class="gallery-item gallery-large reveal"><img src="https://images.unsplash.com/photo-1517248135467-4c7edcad34c4?auto=format&amp;fit=crop&amp;w=1300&amp;q=85" alt="Warmly lit dining room with welcoming wooden tables" loading="lazy" /><figcaption>THE ROOM, READY FOR YOU</figcaption></figure>
+          <figure class="gallery-item gallery-tall reveal"><img src="https://images.unsplash.com/photo-1559339352-11d035aa65de?auto=format&amp;fit=crop&amp;w=900&amp;q=85" alt="A chef preparing a fresh dish in the restaurant kitchen" loading="lazy" /><figcaption>A LITTLE MAGIC IN THE KITCHEN</figcaption></figure>
+          <figure class="gallery-item gallery-small reveal"><img src="https://images.unsplash.com/photo-1504674900247-0877df9cc836?auto=format&amp;fit=crop&amp;w=850&amp;q=85" alt="A colorful vegetable dish made for sharing" loading="lazy" /><figcaption>MADE TO PASS AROUND</figcaption></figure>
+        </div>
+      </section>
+
+      <section class="reviews section-pad" id="reviews" aria-labelledby="reviews-title">
+        <div class="review-heading reveal"><p class="eyebrow"><span class="eyebrow-rule"></span> WORD GETS AROUND</p><h2 id="reviews-title">From our <em>table</em><br />to yours.</h2><div class="review-stars" aria-label="Five out of five stars">★★★★★</div></div>
+        <div class="review-content reveal">
+          <blockquote>“The kind of place you bring a friend when you want the evening to last. Every plate felt thoughtful, and somehow we made room for dessert.”</blockquote>
+          <div class="review-byline"><span class="review-avatar">J</span><div><strong>Jordan P.</strong><small>NEIGHBOR &amp; REGULAR · FICTIONAL REVIEW</small></div></div>
+          <div class="review-controls" aria-label="Review navigation"><button class="review-arrow" type="button" data-review="previous" aria-label="Previous review">←</button><span><b id="review-current">01</b> / <span id="review-total">03</span></span><button class="review-arrow" type="button" data-review="next" aria-label="Next review">→</button></div>
+        </div>
+      </section>
+
+      <section class="reservation" id="reserve" aria-labelledby="reserve-title">
+        <div class="reservation-image"><img src="https://images.unsplash.com/photo-1517248135467-4c7edcad34c4?auto=format&amp;fit=crop&amp;w=1300&amp;q=85" alt="A cozy restaurant interior ready to welcome dinner guests" loading="lazy" /><div class="image-stamp"><span>YOUR<br />PLACE<br />IS HERE</span><i>✳</i></div></div>
+        <div class="reservation-panel">
+          <p class="eyebrow light"><span class="eyebrow-rule"></span> SAVE YOURSELF A SEAT</p>
+          <h2 id="reserve-title">Let’s make<br />a <em>night</em> of it.</h2>
+          <p class="reservation-intro">A table, good company, something wonderful from the kitchen. Start right here.</p>
+          <form class="reservation-form" id="reservation-form">
+            <div class="form-grid">
+              <label>Your name<input name="name" type="text" autocomplete="name" placeholder="How should we greet you?" required /></label>
+              <label>Email address<input name="email" type="email" autocomplete="email" placeholder="you@example.com" required /></label>
+              <label>Date<input name="date" id="reservation-date" type="date" required /></label>
+              <label>Party size<select name="guests" required><option value="" disabled selected>Choose a party size</option><option>1 guest</option><option>2 guests</option><option>3 guests</option><option>4 guests</option><option>5 guests</option><option>6 guests</option></select></label>
+            </div>
+            <label>Anything we should know? <span class="optional">(optional)</span><textarea name="notes" rows="2" placeholder="A birthday? Dietary notes?"></textarea></label>
+            <button class="button button-ivory submit-button" type="submit">Request a table <span aria-hidden="true">↗</span></button>
+            <p class="form-demo-note">DEMO ONLY — This form does not create a real reservation.</p>
+            <p class="form-message" id="form-message" role="status" aria-live="polite"></p>
+          </form>
+        </div>
+      </section>
+
+      <section class="visit section-pad" id="visit" aria-labelledby="visit-title">
+        <div class="visit-intro reveal"><p class="eyebrow"><span class="eyebrow-rule"></span> FIND YOUR WAY HERE</p><h2 id="visit-title">We’ll keep<br />the <em>light on.</em></h2><p>On a leafy corner in Brooklyn, right where the neighborhood comes together.</p><a class="underlined-link" href="https://maps.google.com/?q=184+Wythe+Avenue+Brooklyn+NY" target="_blank" rel="noreferrer">Get directions <span aria-hidden="true">↗</span></a></div>
+        <div class="visit-details reveal">
+          <div class="detail-block"><span class="detail-icon" aria-hidden="true">⌖</span><div><h3>Come find us</h3><p>184 Wythe Avenue<br />Brooklyn, NY 11249</p><a href="tel:+17185550184">+1 (718) 555-0184</a></div></div>
+          <div class="detail-block"><span class="detail-icon" aria-hidden="true">◷</span><div><h3>When we’re here</h3><p>Tue–Thu · 4–10 pm<br />Fri–Sat · 12–11 pm<br />Sunday · 12–9 pm<br />Monday · taking a little rest</p></div></div>
+          <div class="detail-block"><span class="detail-icon" aria-hidden="true">✉</span><div><h3>Say hello</h3><p>Questions, celebrations, just saying hi?</p><a href="mailto:hello@theolivetable.example">hello@theolivetable.example</a></div></div>
+        </div>
+        <div class="visit-map reveal" aria-label="Illustrated map showing the restaurant location"><div class="map-road road-one"></div><div class="map-road road-two"></div><div class="map-road road-three"></div><span class="map-label label-one">WYTHE AVE</span><span class="map-label label-two">BERRY ST</span><span class="map-park">MCCARREN<br />PARK</span><span class="map-pin" aria-label="The Olive Table location">✳</span><span class="map-title">WILLIAMSBURG<br /><small>BROOKLYN, NY</small></span></div>
+      </section>
+    </main>
+
+    <footer class="site-footer">
+      <div class="footer-top"><a class="brand footer-brand" href="#top"><span class="brand-icon" aria-hidden="true">ot</span><span>THE OLIVE<br /><small>TABLE</small></span></a><p>Come hungry.<br /><em>Leave happy.</em></p><a class="footer-reserve" href="#reserve">Find your seat <span aria-hidden="true">↗</span></a></div>
+      <div class="footer-bottom"><span>© <span id="year"></span> THE OLIVE TABLE · FICTIONAL PORTFOLIO DEMO</span><div class="social-links"><a href="https://www.instagram.com/" target="_blank" rel="noreferrer">INSTAGRAM ↗</a><a href="https://www.facebook.com/" target="_blank" rel="noreferrer">FACEBOOK ↗</a><a href="mailto:hello@theolivetable.example">EMAIL ↗</a></div><a class="back-top" href="#top">BACK TO TOP ↑</a></div>
+    </footer>
+  </body>
+</html>
